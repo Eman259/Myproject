@@ -1,0 +1,225 @@
+body {
+    background-color: #f8edf5;
+ }
+ 
+ .navbar {
+    padding: 1rem 2rem;
+    background-color: rgb(39, 36, 36);
+    box-shadow: 0px 4px 5px -3px #222;
+ 
+ }
+ 
+ .nav-outer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .nav-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ 
+ .nav-logo {
+    height: 10px;
+    width: 45px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 12px;
+ }
+ 
+ .nav-logo-child {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+ }
+ 
+ 
+ .nav-list-links {
+    list-style: none;
+    display: flex;
+    
+ }
+ 
+ .nav-list-links li {
+    margin: 0 12px;
+    font-weight: 500;
+ }
+ 
+ 
+ .nav-auth-coantainer {
+    display: flex ;
+
+ }
+ 
+ .nav-auth-btn {
+    background-color: unset;
+    margin: 0px 8px;
+    padding: 0.6rem 1.8rem;
+    border-radius: 24px;
+    border: 0;
+    font-weight: 500;
+ }
+ 
+ #join {
+    background-color: #ad0654;
+    color: white;
+    font-weight: 555;
+ }
+ #login {
+    background-color: #ad0654;
+    color: white;
+    font-weight: 555;
+ }
+ 
+ .hero-section {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+ }
+ 
+ 
+ .hero-text-container {
+    flex: 1;
+    margin-right: 1rem;
+ }
+ 
+ .hero-outer-container {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .hero-sub-heading {
+    font-weight: 500;
+    color: #3f011b;
+ 
+ }
+ 
+ 
+ .hero-main-header {
+    margin-top: 14px;
+    font-weight: 900;
+    font-size: 3rem;
+ }
+ 
+ 
+ .hero-paragpaph {
+    margin-top: 1rem;
+ }
+ 
+ .hero-paragpaph {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 1.2rem;
+ }
+ 
+ 
+ .hero-btn-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .hero-watch {
+    background-color: #ad0654;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border-radius: 24px;
+    border: 0;
+    box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
+    font-weight: 500;
+ }
+ .hero-watch:hover{
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+ }
+ 
+ .hero-simple-link {
+    color: #000000;
+    padding: 0.8rem 1.6rem;
+    border: 0;
+    font-weight: 500;
+ }
+ 
+ 
+ .image-container {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
+ }
+ 
+ 
+ /* <!-- ! COURSES SECTION --> */
+ 
+ 
+ .courses {
+ 
+    padding: 4rem;
+ }
+ 
+ .course-outer-container {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ 
+ .course {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 10px 11px 5px -5px rgba(0, 0, 0, 0.18);
+ }
+ 
+ 
+ .course-sub-title {
+    color: #ad0654;
+    font-weight: 500;
+ }
+ 
+ .course-title {
+    margin-top: 8px;
+    color: black;
+    font-weight: 900;
+ }
+ 
+ .course-image {
+    margin-top: 12px;
+    padding: 1rem;
+    height: 120px;
+ }
+ 
+ .course-enroll-btn {
+    margin-top: 1.5rem;
+    border: 1px solid #f189cf;
+    color: white;
+    background-color: #ad0654 ;
+    padding: 0.8rem 1.6rem;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 1rem;
+ }
+ 
+ .course-enroll-btn:hover {
+    background-color: white;
+    color: #f894d7;
+    cursor: pointer;
+ }
+ 
+ 
+ .course-sub-link {
+    margin-top: 14px;
+    color: #000;
+ }
